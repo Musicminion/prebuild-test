@@ -12,8 +12,8 @@
 		"github-cli": "latest"
 	},
 	"waitFor": "onCreateCommand",
-	// "updateContentCommand": "npm install",
-	"postCreateCommand": "docker-compose -f docker-compose.image.yml pull",
+	"updateContentCommand": "docker-compose -f docker-compose.image.yml pull",
+	// "postCreateCommand": "docker-compose -f docker-compose.image.yml pull",
 	// "postAttachCommand": {
 	//   "server": "npm start"
 	// },

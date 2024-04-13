@@ -12,11 +12,11 @@
 		"github-cli": "latest"
 	},
 	"waitFor": "onCreateCommand",
-	"updateContentCommand": "npm install",
+	// "updateContentCommand": "npm install",
 	"postCreateCommand": "docker-compose -f docker-compose.image.yml pull",
-	"postAttachCommand": {
-	  "server": "npm start"
-	},
+	// "postAttachCommand": {
+	//   "server": "npm start"
+	// },
 	"portsAttributes": {
 	  "3000": {
 		"label": "Application",

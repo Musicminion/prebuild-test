@@ -1,4 +1,4 @@
-version: "2.2"
+version: "3"
 services:
   TeXLive2023:
     image: ghcr.io/ayaka-notes/texlive-full:2023.1.slim

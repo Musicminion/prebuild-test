@@ -18,10 +18,10 @@
 	//   "server": "npm start"
 	// },
 	"portsAttributes": {
-	  "3000": {
+	  "80": {
 		"label": "Application",
 		"onAutoForward": "openPreview"
 	  }
 	},
-	"forwardPorts": [3000]
+	"forwardPorts": [80]
 }

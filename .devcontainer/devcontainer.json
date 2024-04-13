@@ -2,7 +2,7 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"waitFor": "onCreateCommand",
 	"updateContentCommand": "npm install",
-	"postCreateCommand": "docker pull ghcr.io/ayaka-notes/texlive-full:2023.1",
+	"postCreateCommand": "docker-compose -f docker-compose.image.yml pull",
 	"postAttachCommand": {
 	  "server": "npm start"
 	},
@@ -13,4 +13,4 @@
 	  }
 	},
 	"forwardPorts": [3000]
-  }
+}
